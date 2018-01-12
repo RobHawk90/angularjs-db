@@ -1,0 +1,23 @@
+{
+  "name": "angularjs-db",
+  "version": "0.0.0",
+  "description": "A AngularJS service library that wraps the IndexedDB API for local browser database access",
+  "main": "angularjs-db.js",
+  "repository": "https://github.com/RobHawk90/angularjs-db.git",
+  "keywords": [
+    "angular",
+    "indexeddb",
+    "db",
+    "database",
+    "js",
+    "angularjs"
+  ],
+  "author": "RobHawk",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.8"
+  },
+  "scripts": {
+    "start": ""
+  }
+}

@@ -1,4 +1,4 @@
-const DB = require('./db');
+import DB from './db';
 
 var _db;
 
@@ -10,4 +10,4 @@ function DBFactory($q) {
   };
 }
 
-module.exports = DBFactory;
+export default DBFactory;

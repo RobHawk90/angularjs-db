@@ -1,8 +1,8 @@
 {
   "name": "angularjs-db",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A AngularJS service library that wraps the IndexedDB API for local browser database access",
-  "main": "angularjs-db.js",
+  "main": "index.js",
   "repository": "https://github.com/RobHawk90/angularjs-db.git",
   "keywords": [
     "angular",
@@ -18,6 +18,9 @@
     "angular": "^1.6.8"
   },
   "scripts": {
-    "start": ""
+    "start": "webpack -p --config webpack.config.js"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
   }
 }

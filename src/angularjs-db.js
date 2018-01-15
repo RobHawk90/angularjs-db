@@ -1,4 +1,4 @@
-const DBFactory = require('./db-factory');
+import DBFactory from './db-factory';
 
-angular.module('angularjsdb', [])
-  .service('angularjsdb', DBFactory);
+export default angular.module('angularjsdb', [])
+  .service('angularjsdb', ['$q', DBFactory]);

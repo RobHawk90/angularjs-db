@@ -111,4 +111,4 @@ function _getConnection($q, config) {
   return deferred.promise;
 }
 
-module.exports = DB;
+export default DB;

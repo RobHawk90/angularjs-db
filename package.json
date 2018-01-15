@@ -1,6 +1,6 @@
 {
   "name": "angularjs-db",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A AngularJS service library that wraps the IndexedDB API for local browser database access",
   "main": "index.js",
   "repository": "https://github.com/RobHawk90/angularjs-db.git",
